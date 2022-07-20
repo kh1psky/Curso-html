@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu projeto Html">
+    <meta name="keywords" content="Programacao, HTML, CSS, JavaScript">
+    <meta name="author" content="Lucas Leite">
+    <title>Formulários</title>
+</head>
+
+<body>
+    
+    <h1>Formulário</h1>
+
+    <form>
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+        <br> <br>
+        <label for="campo_sobrenome">Sobrenome:</label>
+        <input id="campo_sobrenome" type="text" placeholder="Digite seu sobrenome aqui" required>
+        <br> <br>
+        <label for="campo_email">Email:</label>
+        <input id="campo_email" type="email" placeholder="Digite seu email aqui" required> 
+        <br> <br>
+        <label for="campo_senha">Senha:</label>
+        <input id="campo_senha" type="password" placeholder="Digite sua senha aqui" required>
+        <br> <br>
+        <h2>Animal favorito</h2>
+        <input type="radio" id="dog" name="animal" value="Cachorro" required></input>
+        <label for="dog">Cachorro</label>
+        <br><br>
+        <input type="radio" id="cat" name="animal" value="Gato" required></input>
+        <label for="cat">Gato</label>
+        <br><br>
+        <input type="radio" id="fish" name="animal" value="Peixe required"></input>
+        <label for="fish">Peixe</label>
+        <br><br>
+        <h2>Multiplas</h2>
+        <input type="checkbox" id="check1" name="check1" value="check1" required></input>
+        <label for="check1">Cachorro</label>
+        <br><br>
+        <input type="checkbox" id="check2" name="check2" value="check2" required></input>
+        <label for="check2">Gato</label>
+        <br><br>
+        <input type="checkbox" id="check3" name="check3" value="check3" required></input>
+        <label for="check3">Peixe</label>
+        <br><br>
+        <h2>Selecione a cor do animal</h2>
+        <select name="cores" id="cores" required>
+            <option selected disabled value="">Selecione</option>
+            <option value="1">Branco</option>
+            <option value="2">Preto</option>
+            <option value="3">Marrom</option>
+        </select>
+        <br><br>
+        <h2>Digite sua mensagem</h2>
+            <textarea placeholder="Digite aqui sua mensagem" name="mensagem" id="mensagem" cols="55" rows="15" required></textarea>
+            
+        <br><br>
+        <input type="submit" value="Enviar formulario">
+        <br><br>
+        <button type="reset">Limpar formulário</button>
+
+    </form><br>
+    <br>
+    <hr>
+    <a href="links.html">Voltar</a>
+    
+
+</body>
+</html>
